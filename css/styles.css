@@ -455,7 +455,6 @@ textarea {
   position: relative;
 
   margin-bottom: 10px;
-  outline: none;
 }
 
 .form-field.textarea {
@@ -518,10 +517,6 @@ textarea {
 .form-field:focus-within > .icon-form {
   fill: var(--accent-color);
 }
-
-/* .form-field.input:checked input {
-  cursor: none;
-} */
 
 .comment {
   width: 448px;
