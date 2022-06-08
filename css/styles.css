@@ -501,13 +501,16 @@ textarea {
 }
 
 .form-field:hover input,
-.form-field:focus input {
+.form-field:focus input,
+.form-field:hover textarea,
+.form-field:focus textarea {
   border-color: var(--accent-color);
 
   cursor: pointer;
 }
 
-.form-field:focus-within > input {
+.form-field:focus-within > input,
+.form-field:focus-within > textarea {
   outline: none;
   border-color: var(--accent-color);
 }
@@ -515,6 +518,10 @@ textarea {
 .form-field:focus-within > .icon-form {
   fill: var(--accent-color);
 }
+
+/* .form-field.input:checked input {
+  cursor: none;
+} */
 
 .comment {
   width: 448px;
