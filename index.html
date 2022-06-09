@@ -86,7 +86,7 @@
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
-          <form autocomplete="off">
+          <label autocomplete="off">
             <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
 
             <label class="form-field input"
@@ -123,13 +123,13 @@
               ></textarea>
             </label>
 
-            <div class="checkbox-field">
-              <input type="checkbox" name="policy" id="policy" />
-              <label for="policy"
-                >Соглашаюсь с рассылкой и принимаю
-                <a href="">Условия договора</a></label
+            <label class="checkbox-field">
+              <input type="checkbox" name="policy" class="checkbox"/>
+              <span class="icon-checkbox"></span>
+                              <span>Соглашаюсь с рассылкой и принимаю
+                <a href="" class="link-checkbox">Условия договора</a></span></label
               >
-            </div>
+            </label>
 
             <button class="send-button" type="submit">Отправить</button>
           </form>
