@@ -578,8 +578,9 @@ textarea {
   line-height: 1.89;
   letter-spacing: 0.06em;
 
-  /* display: flex;
-  align-items: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   display: block;
   min-width: 200px;
@@ -1020,16 +1021,15 @@ textarea {
 }
 
 .footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.89;
   letter-spacing: 0.06em;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  display: block;
   min-width: 200px;
   height: 50px;
 
@@ -1052,4 +1052,22 @@ textarea {
 .footer-button:hover,
 .footer-button:focus {
   background-color: var(--secondary-accent-color);
+}
+
+.icon-footer {
+  fill: currentColor;
+
+  margin-left: 10px;
+}
+
+.footer-form {
+  display: flex;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.footer-list:not(last-child) {
+  margin-right: 12px;
 }
