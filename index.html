@@ -74,7 +74,7 @@
         <div class="container">
           <h1 class="hero-title">ЭФФЕКТИВНОЕ РЕШЕНИЕ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
           <!--Кнопка-->
-          <button type="button" class="button" arial-label="Закрыть модальное окно" data-modal-open>
+          <button type="button" class="button" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -86,9 +86,8 @@
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
-          <label autocomplete="off">
-            <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
-
+          <form autocomplete="off">
+            <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
             <label class="form-field input"
               ><span>Имя</span>
               <input type="text" name="name" placeholder=" " />
@@ -124,14 +123,15 @@
             </label>
 
             <label class="checkbox-field">
-              <input type="checkbox" name="policy" class="checkbox"/>
+              <input type="checkbox" name="policy" class="checkbox" />
               <span class="icon-checkbox"></span>
-                              <span>Соглашаюсь с рассылкой и принимаю
-                <a href="" class="link-checkbox">Условия договора</a></span></label
-              >
-            </label>
+              <span
+                >Соглашаюсь с рассылкой и принимаю
+                <a href="" class="link-checkbox">Условия договора</a></span
+              ></label
+            >
 
-            <button class="send-button" type="submit" arial-label="Отправить">Отправить</button>
+            <button class="send-button" type="submit">Отправить</button>
           </form>
         </div>
       </div>
@@ -612,23 +612,24 @@
           <p class="text-footer">Подпишитесь на рассылку</p>
           <ul class="footer-form">
             <li class="footer-list">
-      <input type="email" name="mail-footer" class="mail-footer" placeholder="E-mail" />
-                          </li>
+              <input
+                type="email"
+                name="mail-footer"
+                class="mail-footer"
+                placeholder="E-mail"
+              />
+            </li>
             <li class="footer-list">
-              <button class="footer-button" type="submit"  arial-label="Подписаться">
-              
+              <button class="footer-button" type="submit">
                 <span>Подписаться</span>
-              <svg class="icon-footer" width="24" height="24">
-                          <use
-                            href="./images/symbol-defs.svg#icon-fly"
-                          ></use>
-                        </svg>
-              
-                      </button>
-                    </li>
+                <svg class="icon-footer" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-fly"></use>
+                </svg>
+              </button>
+            </li>
           </ul>
         </div>
-    </div>
+      </div>
     </footer>
     <script src="./js/modal.js"></script>
   </body>
