@@ -430,10 +430,6 @@ body {
 
 /* Форма */
 
-textarea {
-  resize: none;
-}
-
 .form-title {
   font-weight: 700;
   font-size: 20px;
@@ -530,6 +526,10 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
 }
 
+textarea {
+  resize: none;
+}
+
 .checkbox-field {
   display: flex;
   align-items: center;
@@ -548,10 +548,7 @@ textarea {
 }
 
 .link-checkbox {
-  /* text-decoration: none; */
   color: var(--accent-color);
-
-  /* cursor: pointer; */
 }
 
 .icon-checkbox {
@@ -581,8 +578,8 @@ textarea {
   line-height: 1.89;
   letter-spacing: 0.06em;
 
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 
   display: block;
   min-width: 200px;
