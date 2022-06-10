@@ -653,11 +653,6 @@ textarea {
   margin-right: 30px;
 }
 
-.work-thumb {
-  position: relative;
-  z-index: -1;
-}
-
 .work-card {
   position: absolute;
   bottom: 0;
